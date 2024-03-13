@@ -1,0 +1,9 @@
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10px;
+}
