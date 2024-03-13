@@ -1,2 +1,30 @@
 <h1>Hello, {{ name }}</h1>
 <p>The {{ title }} app is running smoothly, good job!</p>
+
+<nav>
+  <ul>
+    <li>
+      <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/products"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Products</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/contact"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Contact</a
+      >
+    </li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>

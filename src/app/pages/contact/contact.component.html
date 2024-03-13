@@ -1,0 +1,13 @@
+<p>contact works!</p>
+
+<div [style]="selectedColor">
+  <p>Hej, det här är ett test!</p>
+</div>
+
+<input type="email" [value]="user.email" />
+
+<input [type]="typeOfInput" value="123" />
+
+<button (click)="selectColor()">Byt färg</button>
+
+<input type="text" [(ngModel)]="selectedColor" />
