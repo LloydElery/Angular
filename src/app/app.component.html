@@ -26,5 +26,13 @@
     </li>
   </ul>
 </nav>
+
+<ul class="list-group">
+  @for(post of posts: track post.id) {
+  <li>
+    {{ post.title }}
+  </li>
+  }
+</ul>
 <!-- The routed views render in the <router-outlet>-->
 <router-outlet></router-outlet>
