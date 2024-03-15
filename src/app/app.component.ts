@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { HeaderSectionComponent } from './pages/header-section/header-section.component';
 import { ProfilePictureComponent } from './pages/profile-picture/profile-picture.component';
@@ -13,7 +13,7 @@ import { ProfileDescriptionComponent } from './pages/profile-description/profile
   standalone: true,
   imports: [
     CommonModule,
-    NgOptimizedImage,
+    FormsModule,
     RouterOutlet,
     RouterLink,
     RouterLinkActive,

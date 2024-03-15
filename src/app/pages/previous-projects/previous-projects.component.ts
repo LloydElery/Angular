@@ -40,4 +40,9 @@ export class PreviousProjectsComponent {
         'An end-to-end eCommerce platform developed with MERN stack (MongoDB, Express.js, React.js, Node.js).',
     },
   ];
+
+  color = '';
+  expande() {
+    this.color = 'blue';
+  }
 }
